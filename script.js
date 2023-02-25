@@ -1,2 +1,8 @@
-const year = document.getElementById("year");
-year.textContent = new Date().getFullYear();
+function getYear() {
+    var year = new Date().getFullYear();
+    var location = document.getElementById('date');
+    
+    location.innerHTML = year;
+  }
+  
+  getYear();

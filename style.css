@@ -4,7 +4,9 @@
     animation: beat .25s infinite alternate;
     transform-origin: center;
 }
-
+.date p a{
+    text-decoration: none;
+}
 @keyframes beat{
     to {transform: scale(1.4);}
 }
